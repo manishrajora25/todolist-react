@@ -50,6 +50,7 @@ function deleteTask(id:number){
   return (
    <>
   <div className="flex flex-col items-center justify-center mt-[15%] px-4">
+    <h1 className="text-[40px] font-bold mb-[20px]">TODO LIST</h1>
   {/* Input and Button Section */}
   <div className="flex flex-col sm:flex-row items-center justify-center w-full max-w-lg">
     <input
